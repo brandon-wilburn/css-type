@@ -4,8 +4,8 @@ body {
   justify-content: center;*/
 /*  position: absolute;
   overflow: hidden;*/
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 10vh;
   background-color: #111116;
   color: white;
   font-family: sans-serif;
@@ -63,17 +63,21 @@ g {
 
 section {
   width: 100vw;
-  scroll-snap-align: start;
   /*margin-left: 100px;*/
 }
 
 #splash {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
   height: 100vh;
-/*  background-color: green;*/
+  background-color: green;
 }
 
 #glyphs {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
   padding-top: 10%;
+/*  height: 4000px;*/
 }
 
 
