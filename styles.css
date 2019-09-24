@@ -1,9 +1,4 @@
 body {
-/*  display: flex;
-  align-items: center;
-  justify-content: center;*/
-/*  position: absolute;
-  overflow: hidden;*/
   width: 100vw;
   height: 10vh;
   background-color: #111116;
@@ -22,9 +17,6 @@ body {
 .anim {
   padding-left: 10%;
   padding-right: 10%;
-}
-
-.anim, .anim svg {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -43,7 +35,7 @@ g {
 .anim path {
   fill: none;
   stroke-miterlimit: 10;
-  stroke-width: 5px;
+  stroke-width: 1px;
   stroke-linecap: round;
   position: relative;
   mix-blend-mode: screen;
@@ -58,12 +50,16 @@ g {
   position:absolute;
   right:0;
   top:0;
-  scroll-snap-type: y mandatory;
+}
+
+@media (min-width: 700px) {
+  #scroller {
+     scroll-snap-type: y mandatory;
+  }
 }
 
 section {
   width: 100vw;
-  /*margin-left: 100px;*/
 }
 
 #splash {

@@ -1,5 +1,5 @@
 var pathEls = document.querySelectorAll('path');
-// console.log(pathEls);
+console.log(pathEls);
 
 for (var i = 0; i < pathEls.length; i++) {
   var pathEl = pathEls[i];
@@ -23,7 +23,7 @@ for (var i = 0; i < pathEls.length; i++) {
   //   // offsetLength=3;
   // }
 
-  oL = oL/2;
+  oL = oL/4;
 
   var colorR = Math.round(Math.random() * 2);
    if (colorR==0) {
@@ -44,7 +44,7 @@ for (var i = 0; i < pathEls.length; i++) {
     targets: pathEl,
     strokeDashoffset: [0, length],
     // strokeDasharray: [array, 0],
-    duration: anime.random(2000, 5000),
+    duration: anime.random(1000, 5000),
     delay: anime.random(0, 1000),
     // duration: 5000,
     // delay: 0,
