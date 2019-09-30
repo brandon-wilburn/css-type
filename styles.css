@@ -23,7 +23,7 @@ body {
 /*  filter: drop-shadow(0px 0px 5px rgba(200,200,200,0.1));*/
 }
 
-#svgContainer {
+.svgContainer {
   height: 300px;
   width: 300px;
 }
@@ -62,11 +62,18 @@ section {
   width: 100vw;
 }
 
+h1 {
+  text-transform: uppercase;
+}
+
 #splash {
   scroll-snap-align: start;
   scroll-snap-stop: always;
   height: 100vh;
   background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #glyphs {
