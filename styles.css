@@ -119,10 +119,6 @@ h1 {
   scroll-snap-align: start;
   scroll-snap-stop: always;
   height: 100vh;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 374e8052e38404a99bb75ce42d93a837aaa84af9
 /*  background-color: green;*/
   display: flex;
   align-items: center;
@@ -133,7 +129,6 @@ h1 {
   height: 600px;
   width: 600px;
   /* background-color: green; */
-<<<<<<< HEAD
 }
 
 #splashContainer path, #scrollDown path {
@@ -152,32 +147,6 @@ h1 {
   stroke: none;
 }
 
-=======
-=======
-  background-color: green;
-  display: flex;
-  align-items: center;
-  justify-content: center;
->>>>>>> 286aeb9215f723afc6ced4bd4a7f8812926535f5
-}
-
-#splashContainer path, #scrollDown path {
-  fill: none;
-  stroke-miterlimit: 10;
-  /*stroke-width: 1px;*/
-  stroke-linecap: round;
-  position: relative;
-  mix-blend-mode: screen;
-  will-change: stroke-width;
-  transition: stroke-width .3s ease-in-out;
-}
-
-#splashText {
-  fill: #e2d6bf !important;
-  stroke: none;
-}
-
->>>>>>> 374e8052e38404a99bb75ce42d93a837aaa84af9
 #scrollDown {
   position: absolute;
   bottom: 60px;
