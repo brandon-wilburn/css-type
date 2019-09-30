@@ -119,6 +119,7 @@ h1 {
   scroll-snap-align: start;
   scroll-snap-stop: always;
   height: 100vh;
+<<<<<<< HEAD
 /*  background-color: green;*/
   display: flex;
   align-items: center;
@@ -129,6 +130,12 @@ h1 {
   height: 600px;
   width: 600px;
   /* background-color: green; */
+=======
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+>>>>>>> 286aeb9215f723afc6ced4bd4a7f8812926535f5
 }
 
 #splashContainer path, #scrollDown path {
